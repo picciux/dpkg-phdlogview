@@ -1,0 +1,17 @@
+Source: phdlogview
+Section: misc
+Priority: optional
+Maintainer: Matteo Piscitelli <matteo@matteopiscitelli.it>
+Build-Depends: cmake, debhelper-compat (= 13), libwxgtk3.2-dev
+Standards-Version: 4.5.1
+Homepage: https://adgsoftware.com/phd2utils/
+Rules-Requires-Root: no
+
+Package: phdlogview
+Architecture: any
+Multi-Arch: foreign
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Suggests: phd2, kstars
+Description: Simple tool to quickly inspect PHD2 guiding logs.
+ PHD2 Log Viewer is a tool for quickly visualizing your guiding performance
+ and spotting problems in your PHD2 Guide Log.

@@ -1,0 +1,5 @@
+phdlogview for Debian
+
+This package contains last version from git repository for the program. From original sources Window runtime DLL are removed.
+
+ -- Matteo Piscitelli <matteo@matteopiscitelli.it>  Fri, 22 Aug 2025 22:17:01 +0000

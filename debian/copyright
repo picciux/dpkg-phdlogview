@@ -1,0 +1,80 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: phdlogview
+Upstream-Contact: Andy Galasso <andy.galasso@gmail.com>
+Source: https://github.com/agalasso/phdlogview
+
+Files:     debian/*
+Copyright: 2025 Matteo Piscitelli <matteo@matteopiscitelli.it>
+License:   GPL-3.0+
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 3 of the License, or
+ (at your option) any later version.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License along
+ with this program; if not, visit the http://fsf.org website.
+ .
+ On Debian systems, the complete text of the GNU General Public License
+ Version 3 can be found in `/usr/share/common-licenses/GPL-3'.
+
+Files:     AnalysisWin.cpp
+           AnalysisWin.h
+           CMakeLists.txt
+           LogViewApp.cpp
+           LogViewApp.h
+           LogViewFrame.cpp
+           LogViewFrame.h
+           logparser.cpp
+           logparser.h
+           generated/LogViewFrameBase.cpp
+           generated/LogViewFrameBase.h
+           phdlogview.desktop
+           phdlogview.ico
+           phdlogview.iss
+           phdlogview.png
+           phdlogview.rc
+           small.ico
+           .gitignore
+           README.txt
+           ChangeLog.txt
+Copyright: 2016-2020 Andy Galasso
+License:   GPL-3.0+
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 3 of the License, or
+ (at your option) any later version.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License along
+ with this program; if not, visit the http://fsf.org website.
+ .
+ On Debian systems, the complete text of the GNU General Public License
+ Version 3 can be found in `/usr/share/common-licenses/GPL-3'.
+
+Files:     LICENSE.txt
+Copyright: 2007 Free Software Foundation, Inc.
+License:   __HEADER___
+ Everyone is permitted to copy and distribute verbatim copies
+ of this license document, but changing it is not allowed.
+
+Files:     cmake_modules/FindwxWidgets.cmake
+Copyright: 2004-2009 Kitware, Inc.
+           2007-2009 Miguel A. Figueroa-Villanueva <miguelf at ieee dot org>
+License:   BSD-3-clause
+ Distributed under the OSI-approved BSD License (the "License");
+ see accompanying file Copyright.txt for details.
+ .
+ This software is distributed WITHOUT ANY WARRANTY; without even the
+ implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ See the License for more information.
+
+
